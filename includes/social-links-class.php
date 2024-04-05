@@ -14,7 +14,7 @@ class social_links_widget extends WP_Widget
         parent::__construct(
             'social_links_widget', // Base ID
             esc_html__('Social Profile Links', 'sl_domain'), // Name
-            array('description' => esc_html__('Outputs social icons linked to profiles', 'text_domain'),) // Args
+            array('description' => esc_html__('Outputs social icons linked to profiles', 'sl_domain'),) // Args
         );
     }
 
